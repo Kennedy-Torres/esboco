@@ -1,0 +1,153 @@
+body {
+    /*background-image: url(./img/Plano_de_fundo.avif);*/
+    background-image: url(./img/Plano_de_fundo-Copia.jpg);
+    /*PLANO DE FUNDO DO SITE*/
+    /*background-size: cover;*/
+    /*REDIMENSIONA A IMAGEM PARA CUBRIR TODO O FUNDO, MAS SE FOR UMA IMAGEM PEQUENA FICA ZOADA*/
+    /*background-position: center center;*/
+    /*CENTRALIZANDO A IMAGEM DE FUNDO*/
+    height: 40px;
+}
+
+
+
+.menu-horizontal {
+    /*MAIOR ESCOPO DO MENU*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    /*PARA EVITAR A SOBREPOSICAO*/
+    /*background-color: #00000087;*/
+    background-image: linear-gradient(to top, #848484, #929292, #b2b2b2);
+    text-align: center;
+    /*DIRECIONA OS ITENS PARA O CENTRO*/
+}
+
+.menu-horizontal ul {
+    /*bloco das listas*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+
+.menu-horizontal li {
+    /*opções individuais da lista*/
+    display: inline-block;
+    /*float: left;*/
+
+}
+
+.menu-horizontal li a {
+    /*conteudo dentro da lsita ...texto*/
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #ffd237;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+}
+
+.menu-horizontal li img {
+    width: 50%;
+    height: 50%;
+
+    vertical-align: middle;
+}
+
+.content {
+    margin-top: 70px;
+    /* Espaço para o menu */
+    padding: 20px;
+    overflow: hidden;
+    /*background-image: url();*/
+    /*pode ser uma borda para as fotos*/
+}
+
+.content img {
+    width: 100%;
+    max-height: 1000px;
+}
+
+/*================================== INICIO-CONTEUDO ==========================================*/
+.menu-CARDAPIO{ /*ESCOPO MAIS ABRANGENTE*/
+
+}
+.menu-header{
+    text-align: center;
+}
+
+.menu-title{
+    
+}
+
+
+/*================================== FINAL - CONTEUDO ==========================================*/
+
+
+/*================================== INICIO - FOOTER ==========================================*/
+.BLOCO-FOOTER {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos do footer */
+footer {
+    background-color: #f8f8f8; /*codigo da cor default: 642a1a*/
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-logo img {
+    max-width: 150px;
+}
+
+.footer-links ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-social ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-links a{
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-social a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+}
+/*================================== FINAL - FOOTER ==========================================*/
